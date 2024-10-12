@@ -1,11 +1,11 @@
 // import { useState } from 'react'
 
-import ServiceHeader from "./components/ServiceHeader";
+import Services from "./pages/services";
 
 function App() {
   return (
     <>
-      <ServiceHeader />
+      <Services />
     </>
   );
 }
