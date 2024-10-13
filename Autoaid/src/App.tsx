@@ -7,7 +7,7 @@ const App: React.FC = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Blog />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/article" element={<Article />} />
       </Routes>
     </Router>
@@ -15,3 +15,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+
