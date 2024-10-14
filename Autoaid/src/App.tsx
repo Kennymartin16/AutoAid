@@ -6,6 +6,7 @@ import Header from "./Components/header";
 import Footer from "./Components/footer";
 import Home from "./pages/Home";
 
+
 const App: React.FC = () => {
   return (
     <>
@@ -23,4 +24,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-
