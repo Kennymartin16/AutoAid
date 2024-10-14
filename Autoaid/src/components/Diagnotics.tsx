@@ -5,17 +5,17 @@ import GridServices from "./GridServices";
 function Diagnotics() {
   return (
     <>
-      <div className="bg-steal-gray px-32 py-20">
-        <div className="flex flex-row">
+      <div className="bg-steal-gray p-4 md:px-32 md:py-20">
+        <div className="flex flex-col md:flex-row">
           <div>
-            <div className="flex flex-col gap-4 border-2 border-mint-green p-8 bg-white">
+            <div className="flex flex-col gap-4 p-8 bg-white">
               <img
                 src="service-Images/Image.png"
                 alt="Car-diagnostic"
                 className="w-full"
               />
               <h2 className="font-extrabold text-5xl mb-4">Auto Diagnotics</h2>
-              <p className="leading-6 text-lg max-w-xl my-8">
+              <p className="leading-10 text-lg max-w-xl my-8">
                 "Harnessing cutting-edge technology to decode your vehicle's
                 health, ensuring peak performance, safety, and longevity through
                 real-time, comprehensive insights. Whether it’s for routine
@@ -30,7 +30,6 @@ function Diagnotics() {
                 </button>
               </div>
             </div>
-            <div className="p-9"></div>
           </div>
           <GridServices />
         </div>
