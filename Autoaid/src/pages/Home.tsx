@@ -1,81 +1,113 @@
 import React from "react";
+// import Header from "../Components/header";
+// import Footer from "../Components/footer";
 
 const Home: React.FC = () => {
   return (
-  <>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  <div>
-    <h1>Article</h1>
-    </div>
-  </>
+    <>
+      {/* <Header/> */}
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+      <div>
+        <h1>HERO IMAGE</h1>
+      </div>
+     
+      {/* <Footer/> */}
+    </>
   );
 }
 

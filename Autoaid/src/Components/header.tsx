@@ -5,7 +5,7 @@ import NavLink from "./Navlink";
 import MenuOverlay from "./MenuOverlay";
 import Autoaid from "/Autoaid.png";
 
-const navLinks = [
+export const navLinks = [
   {
     title: "Home",
     path: "/home",
@@ -28,7 +28,11 @@ const navLinks = [
   },
 ];
 
-const Header = () => {
+interface HeaderProps {
+  isVisible: boolean;
+}
+
+const Header: React.FC<HeaderProps> = ({isVisible}) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -36,7 +40,10 @@ const Header = () => {
   };
 
   return (
-    <nav className="max-w-full fixed top-0 left-0 right-0 z-10 px-4 bg-[#121212] bg-opacity-90">
+    <nav
+    className={`max-w-full fixed top-0 left-0 right-0 z-10 px-4 bg-[#121212] bg-opacity-90 transition-transform duration-300 ${
+      isVisible ? "translate-y-0" : "-translate-y-full"
+    }`}>
       <div className="flex flex-wrap items-center justify-between mx-auto">
         <div className="flex items-center">
           <img src={Autoaid} alt="logo" className="w-20 h-20" />
