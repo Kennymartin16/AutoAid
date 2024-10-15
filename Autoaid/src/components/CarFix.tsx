@@ -8,14 +8,14 @@ function CarFix() {
         <div className="flex flex-row gap-4">
           <div className="">
             <img
-              src="/public/service-Images/car-left-2.png"
+              src="/service-Images/car-left-2.png"
               alt=""
               className="max-h-screen"
             />
           </div>
           <div>
             <img
-              src="/public/service-Images/car-right-2.png"
+              src="/service-Images/car-right-2.png"
               alt=""
               className="max-h-screen"
             />

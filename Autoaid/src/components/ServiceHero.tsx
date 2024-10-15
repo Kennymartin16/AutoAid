@@ -4,7 +4,7 @@ import Button from "./Button";
 function Service() {
   return (
     <>
-      <div className=" p-14 mt-4 items-center mx-auto">
+      <div className=" p-14 mt-24 items-center mx-auto">
         <div className="flex  flex-col md:flex-row md:relative lg:relative mx-auto">
           <img
             src="/service-Images/Header-Image.png"
