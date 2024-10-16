@@ -126,7 +126,7 @@ const Blog: React.FC = () => {
               {
                 img: "/assets/car2.jpeg",
                 alt: "electric car",
-                title: "Will Electric Technology Soon Rule The Road?",
+                title: "Will Electric Technology to Soon Rule The Road?",
               },
             ].map((article, index) => (
               <div key={index} className="flex items-center space-x-4">
