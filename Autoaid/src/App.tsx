@@ -5,6 +5,7 @@ import Article from "./pages/Article";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./pages/Home";
+import Services from "./pages/services";
 
 const App: React.FC = () => {
   const [headerVisible, setHeaderVisible] = useState(true);
@@ -44,6 +45,7 @@ const App: React.FC = () => {
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/article" element={<Article />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
       </div>
       <footer ref={footerRef}>
@@ -52,6 +54,5 @@ const App: React.FC = () => {
     </>
   );
 };
-
 
 export default App;
