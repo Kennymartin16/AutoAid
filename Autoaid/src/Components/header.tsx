@@ -8,7 +8,7 @@ import Autoaid from "/Autoaid.png";
 export const navLinks = [
   {
     title: "Home",
-    path: "/home",
+    path: "/",
   },
   {
     title: "About Us",

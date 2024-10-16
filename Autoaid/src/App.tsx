@@ -39,13 +39,12 @@ const App: React.FC = () => {
   return (
     <>
       <Header isVisible={headerVisible} />
+      <div className="mt-24">
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/article" element={<Article />} />
       </Routes>
-      <div className="mt-24">
-        <Home />
       </div>
       <footer ref={footerRef}>
         <Footer/>
@@ -53,6 +52,6 @@ const App: React.FC = () => {
     </>
   );
 };
-};
+
 
 export default App;
