@@ -5,7 +5,7 @@ This is an Automobile Servicing site.
 This is a six-page website built on 
 
 #Frame works
-- Vite Reatjs
+- Vite ReactJs
 - Tailwindcss
 - Typescript
 
