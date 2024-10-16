@@ -13,8 +13,8 @@ export default {
         "steal-gray": '#E2E6E9',
         "light-gray": '#F2F2F2',
         "white": '#FFff',
-        'dark-gray': '#1E1B1B',
-        'gray': '#939191',
+        "dark": '#1E1B1B',
+        "black": '#000000'
     },
     extend: {},
   },
