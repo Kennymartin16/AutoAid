@@ -4,11 +4,15 @@ function CTA() {
   return (
     <>
       <div className="flex flex-col md:flex-row">
-        <div className="cta-car">
+        <div className="cta-car z-50">
           <img src="/service-Images/cta-car.png" alt="Car fix" />
         </div>
-        <div className="cta-text bg-primary w-72">
-          <h2 className="text-4xl font-bold -z-20">
+        <div
+          className="cta-text bg-primary w-half
+          z-50
+        border-2 border-mint-green"
+        >
+          <h2 className="text-4xl font-bold ">
             Get in touch with us for your service related query
           </h2>
 
