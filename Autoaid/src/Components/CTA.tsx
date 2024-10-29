@@ -26,7 +26,7 @@ function CTA() {
         </div>
         <div className="cta-engine absolute right-0">
           <img
-            src="/public/service-Images/cta-jump.png"
+            src="/service-Images/cta-jump.png"
             alt="Car Jump-starter"
             className="h-96 w-full"
           />
