@@ -4,7 +4,7 @@ function CTA() {
   return (
     <>
       <div className="flex flex-col md:flex-row relative">
-        <div className="cta-car z-40 absolute left-0">
+        <div className="cta-car md:absolute md:left-0">
           <img
             src="/service-Images/cta-car.png"
             alt="Car fix"
@@ -14,7 +14,7 @@ function CTA() {
         <div
           className="cta-text bg-primary max-w-xl
           z-50 p-12 h-96
-         relative left-96"
+         md:relative md:left-96"
         >
           <h2 className="text-5xl font-extrabold py-6 ">
             Get in touch with us for your service related query
@@ -24,7 +24,7 @@ function CTA() {
             Book Now
           </button>
         </div>
-        <div className="cta-engine absolute right-0">
+        <div className="cta-engine md:absolute md:right-0">
           <img
             src="/service-Images/cta-jump.png"
             alt="Car Jump-starter"
