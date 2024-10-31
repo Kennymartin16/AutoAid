@@ -5,6 +5,7 @@ import Features from "../components/Features";
 import Numbers from "../components/Numbers";
 import Teams from "../components/Teams";
 
+
 const About: React.FC = () => {
   return (
     <div>
@@ -18,7 +19,7 @@ const About: React.FC = () => {
             />
           </section>
 
-          <section className="w-full bg-black md:w-1/2 p-8 flex flex-col justify-center">
+          <section className="w-full bg-dark md:w-1/2 p-8 flex flex-col justify-center">
             <div className="relative inset-0 bg-opacity-50 flex items-center mb-3">
               <h2 className="text-white text-5xl font-bold">About us</h2>
             </div>
@@ -38,7 +39,7 @@ const About: React.FC = () => {
         <div className="w-full max-w-6xl mx-auto flex flex-col md:flex-row overflow-hidden ">
           <section className="w-full md:w-1/2 p-8 flex flex-col justify-center">
             <div className="relative inset-0 bg-opacity-0 flex flex-col items-start">
-              <h2 className="text-black text-4xl font-semibold">
+              <h2 className="text-dark text-4xl font-semibold">
                 We Provide Expert Service and aim to have a long term with you
               </h2>
               <p className="text-[#232536] opacity-60 text-lg mt-4 mb-4">
@@ -66,7 +67,7 @@ const About: React.FC = () => {
 
       <section className="flex items-center justify-center  pt-0">
         <div className="w-full max-w-6xl mx-auto flex flex-col items-center justify-center overflow-hidden">
-          <h2 className="text-black text-4xl font-semibold text-center">
+          <h2 className="text-dark text-4xl font-semibold text-center">
             Services we provide to our valued customers
           </h2>
           <div className="w-full max-w-6xl mx-auto flex flex-col md:flex-row overflow-hidden mt-10">
@@ -79,7 +80,7 @@ const About: React.FC = () => {
       </section>
 
       <section className="flex flex-col items-center justify-center pt-10">
-        <h1 className="text-black text-4xl font-semibold text-center mb-6">
+        <h1 className="text-dark text-4xl font-semibold text-center mb-6">
           Meet our Team
         </h1>
         <div className="w-full max-w-6xl mx-auto flex flex-col items-center">
