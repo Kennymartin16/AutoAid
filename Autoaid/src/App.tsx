@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./pages/Home";
-import Services from "./pages/services";
+import Services from "./pages/Service";
 
 const App: React.FC = () => {
   const [headerVisible, setHeaderVisible] = useState(true);

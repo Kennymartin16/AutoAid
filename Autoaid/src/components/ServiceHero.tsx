@@ -12,7 +12,8 @@ function Service() {
             className="min-w-96"
           />
 
-          <div className="bg-dark-gray md:absolute w-4/4  md:right-40 md:max-w-full md:-mt-8  md:p-16 text-white md:max-h-screen">
+          {/* our service box by the right */}
+          <div className="bg-dark-gray md:absolute w-4/4  md:right-5 md:max-w-full md:-mt-4  md:p-16 text-white md:max-h-screen">
             <div className="md:mt-12 md:min-w-3.5/4">
               <h2 className="font-extrabold text-3xl  mt-4 text-center md:text-start  md:text-6xl mb-4">
                 Our services

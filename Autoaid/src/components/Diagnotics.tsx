@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
-import GridServices from "./GridServices";
+import GridServices from "../Components/GridServices";
 
 function Diagnotics() {
   return (

@@ -22,8 +22,8 @@ function CarFix() {
           </div>
         </div>
 
-        <div className="p-8 md:w-2/4">
-          <h2 className="font-bold text-5xl w-full md:max-w-fit  mb-12 text-center md:text-start">
+        <div className="px-8 md:w-2/4">
+          <h2 className="font-extrabold text-4xl w-full md:max-w-fit  mb-8 text-center md:text-start">
             Diagnose Car Problems If You Don’t Know Much About Cars
           </h2>
 

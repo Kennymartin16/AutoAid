@@ -1,5 +1,5 @@
 import React from "react";
-import Cards from "./Card";
+import Cards from "../Components/Card";
 // import { Camera } from "lucide-react";
 // import {ImageUrl} from "./service-Image";
 // import Car from "/public/service-Images/car-ant.png";
