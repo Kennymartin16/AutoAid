@@ -1,4 +1,4 @@
-import Header from "./header";
+import Header from "./Header";
 import social from "/home-images/social.png";
 
 const Footer = () => {
