@@ -13,10 +13,17 @@ export default {
         "steal-gray": '#E2E6E9',
         "light-gray": '#F2F2F2',
         "white": '#FFff',
-        'dark-gray': '#1E1B1B',
-        'gray': '#939191',
+        "dark": '#1E1B1B',
+        "black": '#000000'
     },
-    extend: {},
+    extend: {
+      borderColor: {
+        'custom-gray': 'rgba(225, 225, 225, 0.43)',
+      },
+      boxShadow: {
+        'custom-shadow': '0 28px 118px rgba(109, 108, 115, 0.12)',
+      },
+    },
   },
   plugins: [],
 }

@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.about-achieve {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.about-achieve h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 76px;
+  color: #661CE7;
+}
+
+.about-achieve p {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+/* Medium screens (768px and up) */
+@media (max-width: 1024px) {
+.about-achieve h1 {
+  font-size: 40px;   /* Reduce heading size */
+  line-height: 60px; /* Adjust line height */
+}
+
+.about-achieve p {
+  font-size: 20px;   /* Reduce paragraph size */
+  line-height: 30px;
+}
+}
+
+/* Small screens (767px and below) */
+@media (max-width: 767px) {
+.about-achieve h1 {
+  font-size: 32px;   /* Further reduce heading size */
+  line-height: 50px; /* Adjust line height */
+}
+
+.about-achieve p {
+  font-size: 18px;   /* Further reduce paragraph size */
+  line-height: 28px;
+}
+}

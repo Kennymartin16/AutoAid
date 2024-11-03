@@ -10,7 +10,7 @@ function Diagnotics() {
           <div>
             <div className="flex flex-col gap-4 p-8 bg-white">
               <img
-                src="service-Images/Image.png"
+                src="/service-Images/Image.png"
                 alt="Car-diagnostic"
                 className="w-full"
               />

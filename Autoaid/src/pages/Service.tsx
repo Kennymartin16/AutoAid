@@ -1,11 +1,11 @@
 import React from "react";
-import Service from "../components/ServiceHero";
-import Diagnostic from "../components/Diagnotics";
-import Work from "../components/Work";
-import CarFix from "../components/CarFix";
-import CTAction from "../components/CTA";
+import Service from "../Components/ServiceHero.tsx";
+import Diagnostic from "../Components/Diagnotics.tsx";
+import Work from "../Components/Work.tsx";
+import CarFix from "../Components/CarFix.tsx";
+import CTAction from "../Components/CTA";
 
-function services() {
+function Services() {
   return (
     <>
       <Service />
@@ -17,4 +17,4 @@ function services() {
   );
 }
 
-export default services;
+export default Services;

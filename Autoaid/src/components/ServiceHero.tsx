@@ -5,7 +5,6 @@ function Service() {
   return (
     <>
       <div className=" p-14 mt-24 items-center mx-auto">
-        {/* Image with the mechanic */}
         <div className="flex  flex-col md:flex-row md:relative lg:relative mx-auto">
           <img
             src="/service-Images/Header-Image.png"

@@ -12,7 +12,7 @@ export default function Work() {
           <div>
             <div className="flex flex-row items-center gap-4 mb-6 min-w-20 ">
               <img
-                src="/public/service-Images/Checkmark.png"
+                src="/service-Images/Checkmark.png"
                 alt="check image"
                 className="w-10"
               />
@@ -22,7 +22,7 @@ export default function Work() {
             </div>
             <div className="flex flex-row items-center gap-4 mb-6 min-w-20 text-xl">
               <img
-                src="/public/service-Images/Checkmark.png"
+                src="/service-Images/Checkmark.png"
                 alt="check image"
                 className="w-10"
               />
@@ -32,7 +32,7 @@ export default function Work() {
             </div>
             <div className="flex flex-row items-center gap-4 mb-6 min-w-20 ">
               <img
-                src="/public/service-Images/Checkmark.png"
+                src="/service-Images/Checkmark.png"
                 alt="check image"
                 className="w-10"
               />
@@ -45,10 +45,10 @@ export default function Work() {
 
         <div className="flex flex-row gap-4 max-h-screen">
           <div>
-            <img src="/public/service-Images/car-left.png" alt="" />
+            <img src="/service-Images/car-left.png" alt="" />
           </div>
           <div>
-            <img src="/public/service-Images/car-right.png" alt="" />
+            <img src="/service-Images/car-right.png" alt="" />
           </div>
         </div>
       </div>
