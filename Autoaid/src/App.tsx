@@ -22,7 +22,7 @@ const App: React.FC = () => {
           setHeaderVisible(true); // Show header when footer is not in view
         }
       },
-      { threshold: 0.9 } 
+      { threshold: 0.8 } 
     );
 
     const currentFooterRef = footerRef.current;
